@@ -1,0 +1,60 @@
+baseURL = 'http://wi-not.biz/'
+languageCode = 'en-us'
+title = 'Wi-Not Beverage Solutions Pvt. Ltd.'
+theme = 'hello-friend-ng'
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Subtitle for home
+  homeSubtitle = "A-133, Second Floor, Defence Colony, New Delhi - 110 024"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = true
+
+  # Metadata mostly used in document's head
+  description = "Wi-Not Beverage Solutions Pvt. Ltd."
+  keywords = "homepage"
+  images = [""]
+  
+  [params.footer]
+    trademark = true
+    rss = false
+    copyright = true
+    author = false
+
+    topText = []
+    bottomText = [
+      "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
+      "Made with &#10084; by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
+    ]
+
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/magandeepsingh"
+
+  [[params.social]]
+    name = "email"
+    url = "mailto://info@wi-not.biz"
+
+  [[params.social]]
+    name = "facebook"
+    url = "https://www.facebook.com/winotbevsol/"
+
+  [[params.social]]
+    name = "instagram"
+    url = "https://www.instagram.com/explore/locations/1029961391/wi-not-beverage-solutions-pvt-ltd/"
+
+  [[params.social]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/company/wi-not-beverage-solutions-pvt-ltd/about/"
+
+[languages]
+  [languages.en]
+    copyright = "Coyright 2001-2021 Wi-Not Beverage Solutions Pvt. Ltd."
