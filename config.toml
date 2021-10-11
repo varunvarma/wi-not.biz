@@ -31,8 +31,7 @@ theme = 'hello-friend-ng'
 
     topText = []
     bottomText = [
-      "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
-      "Made with &#10084; by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
+      "Powered by <a href=\"http://gohugo.io\">Hugo</a>"
     ]
 
   [[params.social]]
@@ -41,7 +40,7 @@ theme = 'hello-friend-ng'
 
   [[params.social]]
     name = "email"
-    url = "mailto://info@wi-not.biz"
+    url = "mailto://mail@wi-not.biz"
 
   [[params.social]]
     name = "facebook"
